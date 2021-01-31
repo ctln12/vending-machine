@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavLink} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class VendingMachine extends Component {
   render() {
@@ -10,13 +10,13 @@ class VendingMachine extends Component {
         <nav>
           <ul>
             <li>
-              <NavLink to="/soda">Soda</NavLink>
+              <Link to="/soda">Soda</Link>
             </li>
             <li>
-              <NavLink to="/chips">Chips</NavLink>
+              <Link to="/chips">Chips</Link>
             </li>
             <li>
-              <NavLink to="/candies">Candies</NavLink>
+              <Link to="/candies">Candies</Link>
             </li>
           </ul>
         </nav>

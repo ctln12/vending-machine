@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {NavLink} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Chips extends Component {
   render() {
@@ -9,7 +9,7 @@ class Chips extends Component {
         <nav>
           <ul>
             <li>
-              <NavLink to="/">Go back</NavLink>
+              <Link to="/">Go back</Link>
             </li>
           </ul>
         </nav>
