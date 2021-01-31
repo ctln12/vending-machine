@@ -1,0 +1,32 @@
+.VendingMachine {
+  margin: 100px auto;
+}
+.VendingMachine h1,
+.VendingMachine p {
+  margin-bottom: 50px;
+}
+.VendingMachine p {
+  color: #4E4E4E;
+}
+
+.VendingMachine-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.VendingMachine-items a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+  transition: 0.3s ease-in-out;
+}
+
+.VendingMachine-items a:hover {
+  background-color: black;
+  color: white;
+}
