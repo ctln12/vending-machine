@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import './Chips.css';
+import Container from './Container';
 
 class Chips extends Component {
   render() {
     return (
-      <div className="Chips">
-        <h1>Thanks for choosing some chips!</h1>
-        <Link to="/">Go back</Link>
-      </div>
+      <Container>
+        <div className="Chips">
+          <h1>Thanks for choosing some chips!</h1>
+          <Link to="/">Go back</Link>
+        </div>
+      </Container>
     );
   }
 }

@@ -1,7 +1,3 @@
-.VendingMachine {
-  margin: 100px auto;
-}
-.VendingMachine h1,
 .VendingMachine p {
   margin-bottom: 50px;
 }
@@ -17,7 +13,7 @@
   margin: 0 auto;
 }
 
-.VendingMachine-items a {
+.VendingMachine-items a.VendingMachine-item {
   text-decoration: none;
   color: black;
   border: 1px solid black;
@@ -26,7 +22,8 @@
   transition: 0.3s ease-in-out;
 }
 
-.VendingMachine-items a:hover {
+.VendingMachine-items a.VendingMachine-item:hover {
+  text-decoration: none;
   background-color: black;
   color: white;
 }

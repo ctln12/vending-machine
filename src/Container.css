@@ -1,18 +1,18 @@
-.Candies {
+.Container {
   margin: 100px auto;
 }
 
-.Candies h1 {
+.Container h1 {
   margin-bottom: 50px;
 }
 
-.Candies a {
+.Container a {
   text-decoration: none;
   color: #4E4E4E;
   transition: 0.3s ease-in-out;
 }
 
-.Candies a:hover {
+.Container a:hover {
   color: black;
   text-decoration: underline;
 }
