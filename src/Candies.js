@@ -6,13 +6,7 @@ class Candies extends Component {
     return (
       <div className="Candies">
         <h1>Thanks for choosing some candies!</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Go back</Link>
-            </li>
-          </ul>
-        </nav>
+        <Link to="/">Go back</Link>
       </div>
     );
   }

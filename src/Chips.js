@@ -6,13 +6,7 @@ class Chips extends Component {
     return (
       <div className="Chips">
         <h1>Thanks for choosing some chips!</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Go back</Link>
-            </li>
-          </ul>
-        </nav>
+        <Link to="/">Go back</Link>
       </div>
     );
   }

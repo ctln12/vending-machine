@@ -7,19 +7,11 @@ class VendingMachine extends Component {
       <div className="VendingMachine">
         <h1>Welcome to the Vending Machine!</h1>
         <p>Please choose a product</p>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/soda">Soda</Link>
-            </li>
-            <li>
-              <Link to="/chips">Chips</Link>
-            </li>
-            <li>
-              <Link to="/candies">Candies</Link>
-            </li>
-          </ul>
-        </nav>
+        <div>
+          <Link to="/soda">Soda</Link>
+          <Link to="/chips">Chips</Link>
+          <Link to="/candies">Candies</Link>
+        </div>
       </div>
     );
   }

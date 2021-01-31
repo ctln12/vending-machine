@@ -6,13 +6,7 @@ class Soda extends Component {
     return (
       <div className="Soda">
         <h1>Thanks for choosing a soda!</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Go back</Link>
-            </li>
-          </ul>
-        </nav>
+        <Link to="/">Go back</Link>
       </div>
     );
   }
